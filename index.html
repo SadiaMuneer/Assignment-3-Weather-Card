@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Weather Card</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Poppins Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Weather Buttons -->
+        <div class="weather-menu">
+
+            <button class="weather-card summer">
+                <i class="fa-solid fa-sun"></i>
+                Summer
+            </button>
+
+            <button class="weather-card winter">
+                <i class="fa-solid fa-snowflake"></i>
+                Winter
+            </button>
+
+            <button class="weather-card autumn">
+                <i class="fa-solid fa-leaf"></i>
+                Autumn
+            </button>
+
+            <button class="weather-card spring">
+                <i class="fa-solid fa-seedling"></i>
+                Spring
+            </button>
+
+        </div>
+
+        <!-- Main Card -->
+        <div class="weather-result">
+
+            <!-- Left Side -->
+            <div class="left">
+
+                <img
+                id="weather-image"
+                src="images/summer.jpg"
+                alt="Weather">
+
+            </div>
+
+            <!-- Right Side -->
+            <div class="right">
+
+                <span class="tag">
+                    WEATHER
+                </span>
+
+                <h1 id="weather-name">
+                    SUMMER
+                </h1>
+
+                <p id="weather-description">
+                    Summer brings bright sunshine, warm weather and blue skies.
+                    Enjoy beaches, vacations, outdoor adventures and beautiful sunny days.
+                </p>
+
+                
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
